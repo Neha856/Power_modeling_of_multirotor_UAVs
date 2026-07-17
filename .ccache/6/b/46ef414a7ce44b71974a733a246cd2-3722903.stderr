@@ -1,0 +1,8 @@
+../../libraries/AP_ExternalAHRS/AP_ExternalAHRS_LORD.cpp: In member function ‘float AP_ExternalAHRS_LORD::extract_float(const uint8_t*, uint8_t) const’:
+../../libraries/AP_ExternalAHRS/AP_ExternalAHRS_LORD.cpp:568:13: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  568 |     return *reinterpret_cast<float*>(&tmp);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../libraries/AP_ExternalAHRS/AP_ExternalAHRS_LORD.cpp: In member function ‘double AP_ExternalAHRS_LORD::extract_double(const uint8_t*, uint8_t) const’:
+../../libraries/AP_ExternalAHRS/AP_ExternalAHRS_LORD.cpp:575:13: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+  575 |     return *reinterpret_cast<double*>(&tmp);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

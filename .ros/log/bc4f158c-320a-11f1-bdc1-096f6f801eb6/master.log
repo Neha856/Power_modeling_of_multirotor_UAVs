@@ -1,0 +1,649 @@
+[rosmaster.main][INFO] 2026-04-07 04:18:31,923: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2026-04-07 04:18:31,923: Starting ROS Master Node
+[xmlrpc][INFO] 2026-04-07 04:18:31,924: XML-RPC server binding to 127.0.0.1:11311
+[xmlrpc][INFO] 2026-04-07 04:18:31,925: Started XML-RPC server [http://localhost:11311/]
+[xmlrpc][INFO] 2026-04-07 04:18:31,925: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2026-04-07 04:18:31,925: Master initialized: port[11311], uri[http://localhost:11311/]
+[rosmaster.master][INFO] 2026-04-07 04:18:31,989: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:18:31,990: +PARAM [/roslaunch/uris/host_localhost__39005] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:18:32,018: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:18:32,018: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:18:32,049: +SERVICE [/rosout/get_loggers] /rosout http://localhost:41999/
+[rosmaster.master][INFO] 2026-04-07 04:18:32,049: +SERVICE [/rosout/set_logger_level] /rosout http://localhost:41999/
+[rosmaster.master][INFO] 2026-04-07 04:18:32,049: +PUB [/rosout_agg] /rosout http://localhost:41999/
+[rosmaster.master][INFO] 2026-04-07 04:18:32,051: +SUB [/rosout] /rosout http://localhost:41999/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,267: +PARAM [/roslaunch/uris/host_localhost__33273] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/plugin_blacklist] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/plugin_whitelist] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/startup_px4_usb_quirk] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/conn/heartbeat_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/conn/heartbeat_mav_type] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/conn/timeout] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/conn/timesync_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/conn/system_time_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/sys/min_voltage] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/sys/disable_diag] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/time/time_ref_source] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,272: +PARAM [/mavros/time/timesync_mode] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/time/timesync_avg_alpha] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/tdr_radio/low_rssi] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/cmd/use_comp_id_system_control] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/global_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/global_position/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/global_position/rot_covariance] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/global_position/gps_uere] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/global_position/use_relative_alt] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/global_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/global_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/global_position/tf/global_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/global_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/imu/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/imu/linear_acceleration_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/imu/angular_velocity_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/imu/orientation_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/imu/magnetic_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/local_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/local_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/local_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/local_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/local_position/tf/send_fcu] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/safety_area/p1/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/safety_area/p1/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/safety_area/p1/z] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/safety_area/p2/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/safety_area/p2/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,274: +PARAM [/mavros/safety_area/p2/z] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_accel/send_force] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_attitude/reverse_thrust] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_attitude/use_quaternion] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_attitude/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_attitude/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_attitude/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_attitude/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_raw/thrust_scaling] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_position/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_position/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_position/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/guided_target/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/guided_target/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/guided_target/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/guided_target/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/setpoint_velocity/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/mission/pull_after_gcs] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/mission/use_mission_item_int] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_pub/id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_pub/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_pub/field_of_view] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_pub/send_tf] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_pub/sensor_position/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_pub/sensor_position/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_pub/sensor_position/z] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_sub/subscriber] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_sub/id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/distance_sensor/rangefinder_sub/orientation] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/image/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/use_mocap] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/mocap_transform] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/mocap_withcovariance] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/use_vision] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/use_hil_gps] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/gps_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/geo_origin/lat] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/geo_origin/lon] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/geo_origin/alt] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/eph] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/epv] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,275: +PARAM [/mavros/fake_gps/horiz_accuracy] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/vert_accuracy] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/speed_accuracy] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/satellites_visible] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/fix_type] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/fake_gps/gps_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/listen_lt] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/land_target_type] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/image/width] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/image/height] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/camera/fov_x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/camera/fov_y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/target_size/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/landing_target/target_size/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/mocap/use_tf] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/mocap/use_pose] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/mount/debounce_s] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/mount/err_threshold_deg] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/mount/negate_measured_roll] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/mount/negate_measured_pitch] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/mount/negate_measured_yaw] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/odometry/frame_tf/desired_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/odometry/estimator_type] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/px4flow/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/px4flow/ranger_fov] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/px4flow/ranger_min_range] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/px4flow/ranger_max_range] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/vision_pose/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/vision_pose/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/vision_pose/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/vision_pose/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/vision_speed/listen_twist] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/vision_speed/twist_cov] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,276: +PARAM [/mavros/vibration/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/count] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/use_rpm] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/wheel0/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/wheel0/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/wheel0/radius] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/wheel1/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/wheel1/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/wheel1/radius] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/send_raw] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/send_twist] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/vel_error] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/wheel_odometry/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/fcu_url] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/gcs_url] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/target_system_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/target_component_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,277: +PARAM [/mavros/fcu_protocol] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:20:00,348: +PUB [/rosout] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,348: +SERVICE [/mavros/get_loggers] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,349: +SERVICE [/mavros/set_logger_level] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,350: +PUB [/diagnostics] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,350: +CACHEDPARAM [/mavros/diagnostic_period] by /mavros
+[rosmaster.master][INFO] 2026-04-07 04:20:00,357: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/']
+[rosmaster.master][INFO] 2026-04-07 04:20:00,360: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:20:00,361: +SUB [/tf] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,362: +SUB [/tf_static] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,362: +PUB [/tf] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,363: +PUB [/tf_static] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,367: publisherUpdate[/tf] -> http://localhost:38889/ ['http://localhost:38889/']
+[rosmaster.master][INFO] 2026-04-07 04:20:00,367: publisherUpdate[/tf] -> http://localhost:38889/ ['http://localhost:38889/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:20:00,367: publisherUpdate[/tf_static] -> http://localhost:38889/ ['http://localhost:38889/']
+[rosmaster.master][INFO] 2026-04-07 04:20:00,368: publisherUpdate[/tf_static] -> http://localhost:38889/ ['http://localhost:38889/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:20:00,405: +CACHEDPARAM [/rosout_disable_topics_generation] by /mavros
+[rosmaster.master][INFO] 2026-04-07 04:20:00,409: +PUB [/mavlink/from] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,410: +SUB [/mavlink/to] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,461: +PUB [/mavros/radio_status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,491: +PUB [/mavros/adsb/vehicle] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,493: +SUB [/mavros/adsb/send] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,493: +PUB [/mavros/cam_imu_sync/cam_imu_stamp] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,494: +PUB [/mavros/camera/image_captured] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,495: +SUB [/mavros/cellular_status/status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,496: +SERVICE [/mavros/cmd/command] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,496: +SERVICE [/mavros/cmd/command_ack] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,497: +SERVICE [/mavros/cmd/command_int] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,497: +SERVICE [/mavros/cmd/arming] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,498: +SERVICE [/mavros/cmd/set_home] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,498: +SERVICE [/mavros/cmd/takeoff] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,498: +SERVICE [/mavros/cmd/land] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,499: +SERVICE [/mavros/cmd/trigger_control] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,499: +SERVICE [/mavros/cmd/trigger_interval] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,499: +SERVICE [/mavros/cmd/vtol_transition] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,500: +SUB [/mavros/companion_process/status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,503: +PUB [/mavros/distance_sensor/rangefinder_pub] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,506: +SUB [/mavros/distance_sensor/rangefinder_sub] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,507: +PUB [/mavros/esc_info] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,507: +PUB [/mavros/esc_status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,508: +PUB [/mavros/esc_telemetry] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,517: +SUB [/mavros/fake_gps/mocap/pose] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,518: +PUB [/mavros/geofence/waypoints] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,519: +SERVICE [/mavros/geofence/pull] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,519: +SERVICE [/mavros/geofence/push] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,520: +SERVICE [/mavros/geofence/clear] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,523: +PUB [/mavros/global_position/raw/fix] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,523: +PUB [/mavros/global_position/raw/gps_vel] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,524: +PUB [/mavros/global_position/raw/satellites] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,524: +PUB [/mavros/global_position/global] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,524: +PUB [/mavros/global_position/local] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,524: +PUB [/mavros/global_position/rel_alt] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,525: +PUB [/mavros/global_position/compass_hdg] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,525: +PUB [/mavros/global_position/gp_origin] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,527: +SUB [/mavros/global_position/set_gp_origin] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,529: +SUB [/mavros/home_position/home] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,530: +PUB [/mavros/global_position/gp_lp_offset] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,534: +SUB [/mavros/gps_input/gps_input] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,536: +SUB [/mavros/gps_rtk/send_rtcm] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,537: +PUB [/mavros/gps_rtk/rtk_baseline] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,537: +PUB [/mavros/gpsstatus/gps1/raw] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,538: +PUB [/mavros/gpsstatus/gps2/raw] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,538: +PUB [/mavros/gpsstatus/gps1/rtk] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,538: +PUB [/mavros/gpsstatus/gps2/rtk] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,541: +PUB [/move_base_simple/goal] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,542: +SUB [/mavros/global_position/gp_origin] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,543: +PUB [/mavros/home_position/home] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,544: +SUB [/mavros/home_position/set] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,544: +SERVICE [/mavros/home_position/req_update] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,547: +PUB [/mavros/imu/data] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,547: +PUB [/mavros/imu/mag] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,547: +PUB [/mavros/imu/temperature_imu] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,547: +PUB [/mavros/imu/temperature_baro] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,548: +PUB [/mavros/imu/static_pressure] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,548: +PUB [/mavros/imu/diff_pressure] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,548: +PUB [/mavros/imu/data_raw] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,554: +PUB [/mavros/landing_target/pose_in] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,555: +PUB [/mavros/landing_target/lt_marker] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,556: +SUB [/mavros/landing_target/pose] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,558: +PUB [/mavros/local_position/pose] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,558: +PUB [/mavros/local_position/pose_cov] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,559: +PUB [/mavros/local_position/velocity_local] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,559: +PUB [/mavros/local_position/velocity_body] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,559: +PUB [/mavros/local_position/velocity_body_cov] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,559: +PUB [/mavros/local_position/accel] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,560: +PUB [/mavros/local_position/odom] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,560: publisherUpdate[/mavros/home_position/home] -> http://localhost:38889/ ['http://localhost:38889/']
+[rosmaster.master][INFO] 2026-04-07 04:20:00,560: publisherUpdate[/mavros/home_position/home] -> http://localhost:38889/ ['http://localhost:38889/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:20:00,561: +PUB [/mavros/log_transfer/raw/log_entry] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,561: +PUB [/mavros/log_transfer/raw/log_data] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,562: +SERVICE [/mavros/log_transfer/raw/log_request_list] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,562: +SERVICE [/mavros/log_transfer/raw/log_request_data] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,563: +SERVICE [/mavros/log_transfer/raw/log_request_end] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,563: +SERVICE [/mavros/log_transfer/raw/log_request_erase] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,564: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2026-04-07 04:20:00,564: +PUB [/mavros/mag_calibration/status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,565: +PUB [/mavros/mag_calibration/report] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,565: +PUB [/mavros/manual_control/control] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,567: +SUB [/mavros/manual_control/send] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,569: +SUB [/mavros/mocap/pose] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,571: +SUB [/mavros/mount_control/command] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,571: +PUB [/mavros/mount_control/orientation] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,572: +PUB [/mavros/mount_control/status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,572: +SERVICE [/mavros/mount_control/configure] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,575: +PUB [/mavros/nav_controller_output] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,577: +SUB [/mavros/obstacle/send] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,578: +PUB [/mavros/odometry/in] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,579: +SUB [/mavros/odometry/out] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,581: +SUB [/mavros/onboard_computer/status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,582: +SERVICE [/mavros/param/pull] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,582: +SERVICE [/mavros/param/push] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,583: +SERVICE [/mavros/param/set] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,583: +SERVICE [/mavros/param/get] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,583: +PUB [/mavros/param/param_value] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,585: +SUB [/mavros/play_tune] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,585: +PUB [/mavros/rallypoint/waypoints] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,586: +SERVICE [/mavros/rallypoint/pull] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,586: +SERVICE [/mavros/rallypoint/push] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,586: +SERVICE [/mavros/rallypoint/clear] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,586: +PUB [/mavros/rangefinder/rangefinder] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,587: +PUB [/mavros/rc/in] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,587: +PUB [/mavros/rc/out] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,589: +SUB [/mavros/rc/override] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,590: +SUB [/mavros/setpoint_accel/accel] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,593: +SUB [/mavros/setpoint_attitude/thrust] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,594: +SUB [/mavros/setpoint_attitude/cmd_vel] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,600: +SUB [/mavros/setpoint_position/local] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,601: +SUB [/mavros/setpoint_position/global] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,602: +SUB [/mavros/setpoint_position/global_to_local] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,603: +SUB [/mavros/global_position/global] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,604: +SUB [/mavros/local_position/pose] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,604: +SERVICE [/mavros/setpoint_position/mav_frame] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,606: +SUB [/mavros/setpoint_raw/local] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,607: +SUB [/mavros/setpoint_raw/global] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,608: +SUB [/mavros/setpoint_raw/attitude] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,608: +PUB [/mavros/setpoint_raw/target_local] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,608: +PUB [/mavros/setpoint_raw/target_global] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,608: +PUB [/mavros/setpoint_raw/target_attitude] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,610: +SUB [/mavros/setpoint_trajectory/local] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,611: +PUB [/mavros/setpoint_trajectory/desired] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,611: +SERVICE [/mavros/setpoint_trajectory/reset] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,611: +SERVICE [/mavros/setpoint_trajectory/mav_frame] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,613: +SUB [/mavros/setpoint_velocity/cmd_vel] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,614: +SUB [/mavros/setpoint_velocity/cmd_vel_unstamped] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,614: +SERVICE [/mavros/setpoint_velocity/mav_frame] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,617: +PUB [/mavros/state] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,617: +PUB [/mavros/extended_state] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,617: +PUB [/mavros/battery] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,618: +PUB [/mavros/estimator_status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,618: +PUB [/mavros/statustext/recv] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,618: +PUB [/mavros/sys_status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,619: +SUB [/mavros/statustext/send] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,619: +SERVICE [/mavros/set_stream_rate] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,619: +SERVICE [/mavros/set_mode] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,620: +SERVICE [/mavros/vehicle_info_get] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,620: +SERVICE [/mavros/set_message_interval] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,623: +PUB [/mavros/time_reference] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,624: +PUB [/mavros/timesync_status] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,624: +PUB [/mavros/terrain/report] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,626: +SUB [/mavros/trajectory/generated] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,627: +SUB [/mavros/trajectory/path] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,627: +PUB [/mavros/trajectory/desired] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,628: +SUB [/mavros/tunnel/in] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,629: +PUB [/mavros/tunnel/out] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,629: +PUB [/mavros/vfr_hud] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,632: +SUB [/mavros/vision_pose/pose] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,633: +SUB [/mavros/vision_pose/pose_cov] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,634: +PUB [/mavros/mission/waypoints] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,634: +SERVICE [/mavros/mission/pull] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,634: +SERVICE [/mavros/mission/push] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,635: +SERVICE [/mavros/mission/clear] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,635: +PUB [/mavros/mission/reached] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,635: +SERVICE [/mavros/mission/set_current] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:00,636: +PUB [/mavros/wind_estimation] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:20:01,637: +PUB [/mavlink/gcs_ip] /mavros http://localhost:38889/
+[rosmaster.master][INFO] 2026-04-07 04:22:05,467: +PUB [/rosout] /rostopic_2430_1775515925455 http://localhost:43663/
+[rosmaster.master][INFO] 2026-04-07 04:22:05,469: +SERVICE [/rostopic_2430_1775515925455/get_loggers] /rostopic_2430_1775515925455 http://localhost:43663/
+[rosmaster.master][INFO] 2026-04-07 04:22:05,470: +SERVICE [/rostopic_2430_1775515925455/set_logger_level] /rostopic_2430_1775515925455 http://localhost:43663/
+[rosmaster.master][INFO] 2026-04-07 04:22:05,500: +SUB [/mavros/battery] /rostopic_2430_1775515925455 http://localhost:43663/
+[rosmaster.master][INFO] 2026-04-07 04:22:05,551: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/', 'http://localhost:43663/']
+[rosmaster.master][INFO] 2026-04-07 04:22:05,552: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/', 'http://localhost:43663/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:24:00,141: -SUB [/mavros/battery] /rostopic_2430_1775515925455 http://localhost:43663/
+[rosmaster.master][INFO] 2026-04-07 04:24:00,141: -PUB [/rosout] /rostopic_2430_1775515925455 http://localhost:43663/
+[rosmaster.master][INFO] 2026-04-07 04:24:00,141: -SERVICE [/rostopic_2430_1775515925455/get_loggers] /rostopic_2430_1775515925455 rosrpc://localhost:33423
+[rosmaster.master][INFO] 2026-04-07 04:24:00,141: -SERVICE [/rostopic_2430_1775515925455/set_logger_level] /rostopic_2430_1775515925455 rosrpc://localhost:33423
+[rosmaster.master][INFO] 2026-04-07 04:24:00,164: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/']
+[rosmaster.master][INFO] 2026-04-07 04:24:00,166: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:24:24,534: +PUB [/rosout] /rostopic_2497_1775516064421 http://localhost:43865/
+[rosmaster.master][INFO] 2026-04-07 04:24:24,538: +SERVICE [/rostopic_2497_1775516064421/get_loggers] /rostopic_2497_1775516064421 http://localhost:43865/
+[rosmaster.master][INFO] 2026-04-07 04:24:24,539: +SERVICE [/rostopic_2497_1775516064421/set_logger_level] /rostopic_2497_1775516064421 http://localhost:43865/
+[rosmaster.master][INFO] 2026-04-07 04:24:24,543: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/', 'http://localhost:43865/']
+[rosmaster.master][INFO] 2026-04-07 04:24:24,544: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/', 'http://localhost:43865/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:24:24,551: +SUB [/mavros/battery] /rostopic_2497_1775516064421 http://localhost:43865/
+[rosmaster.master][INFO] 2026-04-07 04:24:34,437: -SUB [/mavros/battery] /rostopic_2497_1775516064421 http://localhost:43865/
+[rosmaster.master][INFO] 2026-04-07 04:24:34,437: -PUB [/rosout] /rostopic_2497_1775516064421 http://localhost:43865/
+[rosmaster.master][INFO] 2026-04-07 04:24:34,437: -SERVICE [/rostopic_2497_1775516064421/get_loggers] /rostopic_2497_1775516064421 rosrpc://localhost:36709
+[rosmaster.master][INFO] 2026-04-07 04:24:34,437: -SERVICE [/rostopic_2497_1775516064421/set_logger_level] /rostopic_2497_1775516064421 rosrpc://localhost:36709
+[rosmaster.master][INFO] 2026-04-07 04:24:34,438: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/']
+[rosmaster.master][INFO] 2026-04-07 04:24:34,439: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:38889/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:27:55,986: +PARAM [/roslaunch/uris/host_localhost__40933] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,988: -PARAM [/mavros] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,991: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,991: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,991: +PARAM [/mavros/plugin_blacklist] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,991: +PARAM [/mavros/plugin_whitelist] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,991: +PARAM [/mavros/startup_px4_usb_quirk] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,991: paramUpdate[/mavros/diagnostic_period/]
+[rosmaster.master][INFO] 2026-04-07 04:27:55,992: +PARAM [/mavros/conn/heartbeat_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,992: +PARAM [/mavros/conn/heartbeat_mav_type] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,992: +PARAM [/mavros/conn/timeout] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,992: +PARAM [/mavros/conn/timesync_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,992: +PARAM [/mavros/conn/system_time_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/sys/min_voltage] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/sys/disable_diag] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/time/time_ref_source] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/time/timesync_mode] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/time/timesync_avg_alpha] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/tdr_radio/low_rssi] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/cmd/use_comp_id_system_control] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/global_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/global_position/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/global_position/rot_covariance] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/global_position/gps_uere] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/global_position/use_relative_alt] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/global_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/global_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/global_position/tf/global_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/global_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/imu/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/imu/linear_acceleration_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/imu/angular_velocity_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/imu/orientation_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/imu/magnetic_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,993: +PARAM [/mavros/local_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/local_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/local_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/local_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/local_position/tf/send_fcu] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/safety_area/p1/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/safety_area/p1/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/safety_area/p1/z] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/safety_area/p2/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/safety_area/p2/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/safety_area/p2/z] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_accel/send_force] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_attitude/reverse_thrust] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_attitude/use_quaternion] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_attitude/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_attitude/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_attitude/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_attitude/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_raw/thrust_scaling] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_position/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,994: +PARAM [/mavros/setpoint_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/setpoint_position/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/setpoint_position/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/guided_target/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/guided_target/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/guided_target/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/guided_target/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/setpoint_velocity/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/mission/pull_after_gcs] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/mission/use_mission_item_int] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_pub/id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_pub/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_pub/field_of_view] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_pub/send_tf] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_pub/sensor_position/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_pub/sensor_position/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_pub/sensor_position/z] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_sub/subscriber] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_sub/id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/distance_sensor/rangefinder_sub/orientation] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/image/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/use_mocap] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/mocap_transform] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/mocap_withcovariance] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/use_vision] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/use_hil_gps] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/gps_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/geo_origin/lat] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/geo_origin/lon] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/geo_origin/alt] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/eph] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/epv] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/horiz_accuracy] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/vert_accuracy] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/speed_accuracy] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/satellites_visible] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/fix_type] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,995: +PARAM [/mavros/fake_gps/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/fake_gps/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/fake_gps/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/fake_gps/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/fake_gps/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/fake_gps/gps_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/listen_lt] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/land_target_type] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/image/width] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/image/height] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/camera/fov_x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/camera/fov_y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/target_size/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/landing_target/target_size/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/mocap/use_tf] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/mocap/use_pose] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/mount/debounce_s] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/mount/err_threshold_deg] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/mount/negate_measured_roll] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/mount/negate_measured_pitch] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/mount/negate_measured_yaw] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/odometry/frame_tf/desired_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/odometry/estimator_type] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/px4flow/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/px4flow/ranger_fov] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/px4flow/ranger_min_range] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/px4flow/ranger_max_range] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/vision_pose/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/vision_pose/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/vision_pose/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/vision_pose/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,996: +PARAM [/mavros/vision_speed/listen_twist] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/vision_speed/twist_cov] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/vibration/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/count] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/use_rpm] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/wheel0/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/wheel0/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/wheel0/radius] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/wheel1/x] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/wheel1/y] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/wheel1/radius] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/send_raw] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/send_twist] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/vel_error] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/wheel_odometry/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/fcu_url] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/gcs_url] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/target_system_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,997: +PARAM [/mavros/target_component_id] by /roslaunch
+[rosmaster.master][INFO] 2026-04-07 04:27:55,998: +PARAM [/mavros/fcu_protocol] by /roslaunch
+[rosmaster.threadpool][ERROR] 2026-04-07 04:27:56,001: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 580, in param_update_task
+    code, _, _ = xmlrpcapi(caller_api).paramUpdate('/master', param_key, param_value)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2026-04-07 04:27:56,038: +PUB [/rosout] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,039: +SERVICE [/mavros/get_loggers] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,039: +SERVICE [/mavros/set_logger_level] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,040: +PUB [/diagnostics] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,041: +CACHEDPARAM [/mavros/diagnostic_period] by /mavros
+[rosmaster.master][INFO] 2026-04-07 04:27:56,049: +SUB [/tf] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,050: +SUB [/tf_static] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,050: +PUB [/tf] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,050: +PUB [/tf_static] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,068: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:41933/']
+[rosmaster.master][INFO] 2026-04-07 04:27:56,069: publisherUpdate[/rosout] -> http://localhost:41999/ ['http://localhost:41933/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:27:56,069: publisherUpdate[/tf] -> http://localhost:41933/ ['http://localhost:41933/']
+[rosmaster.master][INFO] 2026-04-07 04:27:56,069: publisherUpdate[/tf] -> http://localhost:41933/ ['http://localhost:41933/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:27:56,069: publisherUpdate[/tf_static] -> http://localhost:41933/ ['http://localhost:41933/']
+[rosmaster.master][INFO] 2026-04-07 04:27:56,070: publisherUpdate[/tf_static] -> http://localhost:41933/ ['http://localhost:41933/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:27:56,081: +CACHEDPARAM [/rosout_disable_topics_generation] by /mavros
+[rosmaster.master][INFO] 2026-04-07 04:27:56,271: -PUB [/rosout] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,271: publisherUpdate[/rosout] -> http://localhost:41999/ []
+[rosmaster.master][INFO] 2026-04-07 04:27:56,271: -PUB [/diagnostics] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,272: publisherUpdate[/rosout] -> http://localhost:41999/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-04-07 04:27:56,272: -PUB [/tf] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,273: -PUB [/tf_static] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,273: -SUB [/tf] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,273: -SUB [/tf_static] /mavros http://localhost:41933/
+[rosmaster.master][INFO] 2026-04-07 04:27:56,274: -SERVICE [/mavros/get_loggers] /mavros rosrpc://localhost:33041
+[rosmaster.master][INFO] 2026-04-07 04:27:56,274: -SERVICE [/mavros/set_logger_level] /mavros rosrpc://localhost:33041
+[rosmaster.master][INFO] 2026-04-07 04:27:56,275: -CACHEDPARAM [/mavros/diagnostic_period] by /mavros
+[rosmaster.master][INFO] 2026-04-07 04:27:56,276: -CACHEDPARAM [/rosout_disable_topics_generation] by /mavros
+[rosmaster.master][INFO] 2026-04-07 04:27:56,293: publisherUpdate[/tf] -> http://localhost:41933/ []
+[rosmaster.master][INFO] 2026-04-07 04:27:56,293: publisherUpdate[/tf] -> http://localhost:41933/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2026-04-07 04:27:56,294: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2026-04-07 04:27:56,294: publisherUpdate[/tf_static] -> http://localhost:41933/ []
+[rosmaster.master][INFO] 2026-04-07 04:27:56,294: publisherUpdate[/tf_static] -> http://localhost:41933/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2026-04-07 04:27:56,294: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1165, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1278, in send_request
+    self.send_content(connection, request_body)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1308, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/usr/lib/python3.8/http/client.py", line 922, in connect
+    self.sock = self._create_connection(
+  File "/usr/lib/python3.8/socket.py", line 808, in create_connection
+    raise err
+  File "/usr/lib/python3.8/socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2026-04-07 04:31:00,516: -PUB [/rosout_agg] /rosout http://localhost:41999/
+[rosmaster.master][INFO] 2026-04-07 04:31:00,517: -SUB [/rosout] /rosout http://localhost:41999/
+[rosmaster.master][INFO] 2026-04-07 04:31:00,517: -SERVICE [/rosout/get_loggers] /rosout rosrpc://localhost:59863
+[rosmaster.master][INFO] 2026-04-07 04:31:00,518: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://localhost:59863
+[rosmaster.master][INFO] 2026-04-07 04:31:00,518: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2026-04-07 04:31:00,620: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2026-04-07 04:31:00,620: stopping master...
+[rospy.core][INFO] 2026-04-07 04:31:00,620: signal_shutdown [atexit]

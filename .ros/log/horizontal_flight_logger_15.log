@@ -1,0 +1,22 @@
+[rospy.client][INFO] 2026-07-09 18:54:17,343: init_node, name[/horizontal_flight_logger_15], pid[7074]
+[xmlrpc][INFO] 2026-07-09 18:54:17,343: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2026-07-09 18:54:17,343: Started XML-RPC server [http://localhost:45715/]
+[rospy.impl.masterslave][INFO] 2026-07-09 18:54:17,343: _ready: http://localhost:45715/
+[rospy.registration][INFO] 2026-07-09 18:54:17,344: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-07-09 18:54:17,344: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-07-09 18:54:17,344: ROS Slave URI: [http://localhost:45715/]
+[rospy.init][INFO] 2026-07-09 18:54:17,344: registered with master
+[rospy.rosout][INFO] 2026-07-09 18:54:17,344: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-07-09 18:54:17,346: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-07-09 18:54:17,346: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2026-07-09 18:54:17,351: topic[/mavros/battery] adding connection to [http://localhost:41567/], count 0
+[rospy.internal][INFO] 2026-07-09 18:54:17,352: topic[/mavros/local_position/velocity_local] adding connection to [http://localhost:41567/], count 0
+[rospy.internal][INFO] 2026-07-09 18:54:17,608: topic[/mavros/setpoint_raw/local] adding connection to [/mavros], count 0
+[rospy.internal][INFO] 2026-07-09 18:54:17,609: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-07-09 18:59:47,067: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-07-09 18:59:49,960: topic[/mavros/local_position/velocity_local] removing connection to http://localhost:41567/
+[rospy.internal][INFO] 2026-07-09 18:59:49,961: topic[/mavros/battery] removing connection to http://localhost:41567/
+[rospy.internal][INFO] 2026-07-09 18:59:49,991: topic[/mavros/setpoint_raw/local] removing connection to /mavros
+[rospy.core][INFO] 2026-07-09 18:59:58,542: signal_shutdown [atexit]
+[rospy.registration][WARNING] 2026-07-09 18:59:58,544: cannot unregister with master due to network issues
+[rospy.impl.masterslave][INFO] 2026-07-09 18:59:58,544: atexit

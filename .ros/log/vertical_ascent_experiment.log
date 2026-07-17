@@ -1,0 +1,40 @@
+[rospy.client][INFO] 2026-06-18 15:40:42,866: init_node, name[/vertical_ascent_experiment], pid[3858]
+[xmlrpc][INFO] 2026-06-18 15:40:42,866: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2026-06-18 15:40:42,867: Started XML-RPC server [http://localhost:41395/]
+[rospy.impl.masterslave][INFO] 2026-06-18 15:40:42,867: _ready: http://localhost:41395/
+[rospy.registration][INFO] 2026-06-18 15:40:42,867: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-06-18 15:40:42,867: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-06-18 15:40:42,867: ROS Slave URI: [http://localhost:41395/]
+[rospy.init][INFO] 2026-06-18 15:40:42,867: registered with master
+[rospy.rosout][INFO] 2026-06-18 15:40:42,867: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-06-18 15:40:42,870: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-06-18 15:40:42,871: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2026-06-18 15:40:42,877: topic[/mavros/battery] adding connection to [http://localhost:42761/], count 0
+[rospy.internal][INFO] 2026-06-18 15:40:42,878: topic[/mavros/local_position/velocity_local] adding connection to [http://localhost:42761/], count 0
+[rospy.internal][INFO] 2026-06-18 15:40:42,985: topic[/mavros/setpoint_velocity/cmd_vel] adding connection to [/mavros], count 0
+[rospy.internal][INFO] 2026-06-18 15:40:43,084: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-06-18 15:40:43,087: topic[/mavros/setpoint_position/local] adding connection to [/mavros], count 0
+[rospy.core][INFO] 2026-06-18 15:44:16,607: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-06-18 15:44:16,613: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-06-18 15:44:16,613: topic[/mavros/setpoint_velocity/cmd_vel] removing connection to /mavros
+[rospy.internal][INFO] 2026-06-18 15:44:16,613: topic[/mavros/setpoint_position/local] removing connection to /mavros
+[rospy.internal][INFO] 2026-06-18 15:44:16,614: topic[/mavros/battery] removing connection to http://localhost:42761/
+[rospy.internal][INFO] 2026-06-18 15:44:16,615: topic[/mavros/local_position/velocity_local] removing connection to http://localhost:42761/
+[rospy.impl.masterslave][INFO] 2026-06-18 15:44:16,615: atexit
+[rospy.internal][INFO] 2026-06-18 15:44:16,615: topic[/mavros/local_position/velocity_local] removing connection to http://localhost:42761/
+[rospy.client][INFO] 2026-06-18 16:05:44,337: init_node, name[/vertical_ascent_experiment], pid[4754]
+[xmlrpc][INFO] 2026-06-18 16:05:44,337: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2026-06-18 16:05:44,338: Started XML-RPC server [http://localhost:40819/]
+[rospy.impl.masterslave][INFO] 2026-06-18 16:05:44,338: _ready: http://localhost:40819/
+[rospy.registration][INFO] 2026-06-18 16:05:44,338: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-06-18 16:05:44,338: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-06-18 16:05:44,338: ROS Slave URI: [http://localhost:40819/]
+[rospy.init][INFO] 2026-06-18 16:05:44,338: registered with master
+[rospy.rosout][INFO] 2026-06-18 16:05:44,338: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-06-18 16:05:44,341: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-06-18 16:05:44,341: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2026-06-18 16:05:44,347: topic[/mavros/local_position/velocity_body] adding connection to [http://localhost:45765/], count 0
+[rospy.internal][INFO] 2026-06-18 16:05:44,347: topic[/mavros/battery] adding connection to [http://localhost:45765/], count 0
+[rospy.internal][INFO] 2026-06-18 16:05:44,555: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-06-18 16:05:44,556: topic[/mavros/setpoint_position/local] adding connection to [/mavros], count 0
+[rospy.internal][INFO] 2026-06-18 16:05:44,556: topic[/mavros/setpoint_velocity/cmd_vel] adding connection to [/mavros], count 0

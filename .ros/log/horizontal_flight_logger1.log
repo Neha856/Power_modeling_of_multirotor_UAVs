@@ -1,0 +1,21 @@
+[rospy.client][INFO] 2026-06-30 22:42:17,878: init_node, name[/horizontal_flight_logger1], pid[2079]
+[xmlrpc][INFO] 2026-06-30 22:42:17,878: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2026-06-30 22:42:17,879: Started XML-RPC server [http://localhost:41299/]
+[rospy.impl.masterslave][INFO] 2026-06-30 22:42:17,880: _ready: http://localhost:41299/
+[rospy.init][INFO] 2026-06-30 22:42:17,880: ROS Slave URI: [http://localhost:41299/]
+[rospy.registration][INFO] 2026-06-30 22:42:17,880: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2026-06-30 22:42:17,880: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2026-06-30 22:42:17,981: registered with master
+[rospy.rosout][INFO] 2026-06-30 22:42:17,981: initializing /rosout core topic
+[rospy.rosout][INFO] 2026-06-30 22:42:17,986: connected to core topic /rosout
+[rospy.simtime][INFO] 2026-06-30 22:42:17,987: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2026-06-30 22:42:18,000: topic[/mavros/local_position/velocity_local] adding connection to [http://localhost:36913/], count 0
+[rospy.internal][INFO] 2026-06-30 22:42:18,001: topic[/mavros/battery] adding connection to [http://localhost:36913/], count 0
+[rospy.internal][INFO] 2026-06-30 22:42:18,265: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2026-06-30 22:42:18,266: topic[/mavros/setpoint_raw/local] adding connection to [/mavros], count 0
+[rospy.core][INFO] 2026-06-30 22:49:14,061: signal_shutdown [atexit]
+[rospy.internal][INFO] 2026-06-30 22:49:14,068: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2026-06-30 22:49:14,068: topic[/mavros/setpoint_raw/local] removing connection to /mavros
+[rospy.internal][INFO] 2026-06-30 22:49:14,068: topic[/mavros/local_position/velocity_local] removing connection to http://localhost:36913/
+[rospy.internal][INFO] 2026-06-30 22:49:14,069: topic[/mavros/battery] removing connection to http://localhost:36913/
+[rospy.impl.masterslave][INFO] 2026-06-30 22:49:14,070: atexit

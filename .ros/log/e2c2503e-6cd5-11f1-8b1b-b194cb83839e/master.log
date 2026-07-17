@@ -1,0 +1,662 @@
+[rosmaster.main][INFO] 2026-06-20 23:58:51,972: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2026-06-20 23:58:51,972: Starting ROS Master Node
+[xmlrpc][INFO] 2026-06-20 23:58:51,973: XML-RPC server binding to 127.0.0.1:11311
+[xmlrpc][INFO] 2026-06-20 23:58:51,973: Started XML-RPC server [http://localhost:11311/]
+[rosmaster.master][INFO] 2026-06-20 23:58:51,973: Master initialized: port[11311], uri[http://localhost:11311/]
+[xmlrpc][INFO] 2026-06-20 23:58:51,973: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2026-06-20 23:58:51,998: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:51,999: +PARAM [/roslaunch/uris/host_localhost__36831] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:52,038: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:52,039: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:52,109: +SERVICE [/rosout/get_loggers] /rosout http://localhost:33343/
+[rosmaster.master][INFO] 2026-06-20 23:58:52,110: +SERVICE [/rosout/set_logger_level] /rosout http://localhost:33343/
+[rosmaster.master][INFO] 2026-06-20 23:58:52,112: +PUB [/rosout_agg] /rosout http://localhost:33343/
+[rosmaster.master][INFO] 2026-06-20 23:58:52,115: +SUB [/rosout] /rosout http://localhost:33343/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,082: +PARAM [/roslaunch/uris/host_localhost__37749] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,089: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,089: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,089: +PARAM [/mavros/plugin_blacklist] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/plugin_whitelist] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/startup_px4_usb_quirk] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/conn/heartbeat_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/conn/heartbeat_mav_type] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/conn/timeout] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/conn/timesync_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/conn/system_time_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/sys/min_voltage] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/sys/disable_diag] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/time/time_ref_source] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,090: +PARAM [/mavros/time/timesync_mode] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/time/timesync_avg_alpha] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/tdr_radio/low_rssi] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/cmd/use_comp_id_system_control] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/global_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/global_position/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/global_position/rot_covariance] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/global_position/gps_uere] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/global_position/use_relative_alt] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/global_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/global_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/global_position/tf/global_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/global_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/imu/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/imu/linear_acceleration_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/imu/angular_velocity_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/imu/orientation_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/imu/magnetic_stdev] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,091: +PARAM [/mavros/local_position/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/local_position/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/local_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/local_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/local_position/tf/send_fcu] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/safety_area/p1/x] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/safety_area/p1/y] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/safety_area/p1/z] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/safety_area/p2/x] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/safety_area/p2/y] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/safety_area/p2/z] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_accel/send_force] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_attitude/reverse_thrust] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_attitude/use_quaternion] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_attitude/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_attitude/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_attitude/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_attitude/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_raw/thrust_scaling] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_position/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_position/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_position/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_position/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_position/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/guided_target/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/guided_target/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/guided_target/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/guided_target/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/setpoint_velocity/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/mission/pull_after_gcs] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/mission/use_mission_item_int] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/distance_sensor/rangefinder_pub/id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/distance_sensor/rangefinder_pub/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,092: +PARAM [/mavros/distance_sensor/rangefinder_pub/field_of_view] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/distance_sensor/rangefinder_pub/send_tf] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/distance_sensor/rangefinder_pub/sensor_position/x] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/distance_sensor/rangefinder_pub/sensor_position/y] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/distance_sensor/rangefinder_pub/sensor_position/z] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/distance_sensor/rangefinder_sub/subscriber] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/distance_sensor/rangefinder_sub/id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/distance_sensor/rangefinder_sub/orientation] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/image/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/use_mocap] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/mocap_transform] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/mocap_withcovariance] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/use_vision] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/use_hil_gps] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/gps_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/geo_origin/lat] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/geo_origin/lon] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/geo_origin/alt] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/eph] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/epv] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/horiz_accuracy] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/vert_accuracy] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/speed_accuracy] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/satellites_visible] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/fix_type] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/fake_gps/gps_rate] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/landing_target/listen_lt] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/landing_target/mav_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/landing_target/land_target_type] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/landing_target/image/width] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,093: +PARAM [/mavros/landing_target/image/height] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/landing_target/camera/fov_x] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/landing_target/camera/fov_y] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/landing_target/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/landing_target/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/landing_target/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/landing_target/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/landing_target/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/landing_target/target_size/x] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/landing_target/target_size/y] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/mocap/use_tf] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/mocap/use_pose] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/mount/debounce_s] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/mount/err_threshold_deg] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/mount/negate_measured_roll] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/mount/negate_measured_pitch] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/mount/negate_measured_yaw] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/odometry/frame_tf/desired_frame] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/odometry/estimator_type] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/px4flow/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/px4flow/ranger_fov] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/px4flow/ranger_min_range] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/px4flow/ranger_max_range] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/vision_pose/tf/listen] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/vision_pose/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/vision_pose/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/vision_pose/tf/rate_limit] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/vision_speed/listen_twist] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/vision_speed/twist_cov] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/vibration/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/wheel_odometry/count] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/wheel_odometry/use_rpm] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/wheel_odometry/wheel0/x] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,094: +PARAM [/mavros/wheel_odometry/wheel0/y] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/wheel0/radius] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/wheel1/x] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/wheel1/y] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/wheel1/radius] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/send_raw] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/send_twist] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/vel_error] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/tf/send] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/tf/frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/wheel_odometry/tf/child_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/fcu_url] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/gcs_url] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/target_system_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/target_component_id] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,095: +PARAM [/mavros/fcu_protocol] by /roslaunch
+[rosmaster.master][INFO] 2026-06-20 23:58:58,208: +PUB [/rosout] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,209: +SERVICE [/mavros/get_loggers] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,210: +SERVICE [/mavros/set_logger_level] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,211: +PUB [/diagnostics] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,212: +CACHEDPARAM [/mavros/diagnostic_period] by /mavros
+[rosmaster.master][INFO] 2026-06-20 23:58:58,228: +SUB [/tf] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,230: +SUB [/tf_static] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,231: +PUB [/tf] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,231: +PUB [/tf_static] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,290: publisherUpdate[/rosout] -> http://localhost:33343/ ['http://localhost:40543/']
+[rosmaster.master][INFO] 2026-06-20 23:58:58,290: publisherUpdate[/tf] -> http://localhost:40543/ ['http://localhost:40543/']
+[rosmaster.master][INFO] 2026-06-20 23:58:58,291: +CACHEDPARAM [/rosout_disable_topics_generation] by /mavros
+[rosmaster.master][INFO] 2026-06-20 23:58:58,294: publisherUpdate[/tf] -> http://localhost:40543/ ['http://localhost:40543/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-06-20 23:58:58,294: publisherUpdate[/tf_static] -> http://localhost:40543/ ['http://localhost:40543/']
+[rosmaster.master][INFO] 2026-06-20 23:58:58,295: publisherUpdate[/rosout] -> http://localhost:33343/ ['http://localhost:40543/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-06-20 23:58:58,295: publisherUpdate[/tf_static] -> http://localhost:40543/ ['http://localhost:40543/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-06-20 23:58:58,296: +PUB [/mavlink/from] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,298: +SUB [/mavlink/to] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,406: +PUB [/mavros/radio_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,486: +PUB [/mavros/adsb/vehicle] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,489: +SUB [/mavros/adsb/send] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,490: +PUB [/mavros/cam_imu_sync/cam_imu_stamp] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,491: +PUB [/mavros/camera/image_captured] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,495: +SUB [/mavros/cellular_status/status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,498: +SERVICE [/mavros/cmd/command] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,498: +SERVICE [/mavros/cmd/command_ack] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,499: +SERVICE [/mavros/cmd/command_int] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,500: +SERVICE [/mavros/cmd/arming] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,500: +SERVICE [/mavros/cmd/set_home] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,501: +SERVICE [/mavros/cmd/takeoff] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,502: +SERVICE [/mavros/cmd/land] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,502: +SERVICE [/mavros/cmd/trigger_control] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,503: +SERVICE [/mavros/cmd/trigger_interval] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,504: +SERVICE [/mavros/cmd/vtol_transition] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,505: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2026-06-20 23:58:58,507: +SUB [/mavros/companion_process/status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,511: +PUB [/mavros/distance_sensor/rangefinder_pub] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,516: +SUB [/mavros/distance_sensor/rangefinder_sub] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,517: +PUB [/mavros/esc_info] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,518: +PUB [/mavros/esc_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,519: +PUB [/mavros/esc_telemetry] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,536: +SUB [/mavros/fake_gps/mocap/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,539: +PUB [/mavros/geofence/waypoints] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,540: +SERVICE [/mavros/geofence/pull] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,540: +SERVICE [/mavros/geofence/push] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,541: +SERVICE [/mavros/geofence/clear] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,548: +PUB [/mavros/global_position/raw/fix] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,548: +PUB [/mavros/global_position/raw/gps_vel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,549: +PUB [/mavros/global_position/raw/satellites] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,549: +PUB [/mavros/global_position/global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,550: +PUB [/mavros/global_position/local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,550: +PUB [/mavros/global_position/rel_alt] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,550: +PUB [/mavros/global_position/compass_hdg] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,551: +PUB [/mavros/global_position/gp_origin] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,553: +SUB [/mavros/global_position/set_gp_origin] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,554: +SUB [/mavros/home_position/home] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,555: +PUB [/mavros/global_position/gp_lp_offset] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,557: +SUB [/mavros/gps_input/gps_input] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,560: +SUB [/mavros/gps_rtk/send_rtcm] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,560: +PUB [/mavros/gps_rtk/rtk_baseline] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,561: +PUB [/mavros/gpsstatus/gps1/raw] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,561: +PUB [/mavros/gpsstatus/gps2/raw] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,562: +PUB [/mavros/gpsstatus/gps1/rtk] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,562: +PUB [/mavros/gpsstatus/gps2/rtk] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,565: +PUB [/move_base_simple/goal] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,567: +SUB [/mavros/global_position/gp_origin] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,568: +PUB [/mavros/home_position/home] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,570: +SUB [/mavros/home_position/set] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,570: +SERVICE [/mavros/home_position/req_update] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,574: +PUB [/mavros/imu/data] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,575: +PUB [/mavros/imu/mag] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,575: +PUB [/mavros/imu/temperature_imu] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,576: +PUB [/mavros/imu/temperature_baro] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,576: +PUB [/mavros/imu/static_pressure] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,576: +PUB [/mavros/imu/diff_pressure] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,577: +PUB [/mavros/imu/data_raw] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,586: +PUB [/mavros/landing_target/pose_in] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,586: +PUB [/mavros/landing_target/lt_marker] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,588: +SUB [/mavros/landing_target/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,591: +PUB [/mavros/local_position/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,591: publisherUpdate[/mavros/home_position/home] -> http://localhost:40543/ ['http://localhost:40543/']
+[rosmaster.master][INFO] 2026-06-20 23:58:58,592: +PUB [/mavros/local_position/pose_cov] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,592: publisherUpdate[/mavros/home_position/home] -> http://localhost:40543/ ['http://localhost:40543/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-06-20 23:58:58,593: +PUB [/mavros/local_position/velocity_local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,593: +PUB [/mavros/local_position/velocity_body] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,593: +PUB [/mavros/local_position/velocity_body_cov] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,594: +PUB [/mavros/local_position/accel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,594: +PUB [/mavros/local_position/odom] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,595: +PUB [/mavros/log_transfer/raw/log_entry] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,595: +PUB [/mavros/log_transfer/raw/log_data] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,596: +SERVICE [/mavros/log_transfer/raw/log_request_list] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,597: +SERVICE [/mavros/log_transfer/raw/log_request_data] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,597: +SERVICE [/mavros/log_transfer/raw/log_request_end] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,598: +SERVICE [/mavros/log_transfer/raw/log_request_erase] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,598: +PUB [/mavros/mag_calibration/status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,599: +PUB [/mavros/mag_calibration/report] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,600: +PUB [/mavros/manual_control/control] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,601: +SUB [/mavros/manual_control/send] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,605: +SUB [/mavros/mocap/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,608: +SUB [/mavros/mount_control/command] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,608: +PUB [/mavros/mount_control/orientation] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,608: +PUB [/mavros/mount_control/status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,609: +SERVICE [/mavros/mount_control/configure] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,613: +PUB [/mavros/nav_controller_output] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,616: +SUB [/mavros/obstacle/send] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,617: +PUB [/mavros/odometry/in] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,619: +SUB [/mavros/odometry/out] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,621: +SUB [/mavros/onboard_computer/status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,622: +SERVICE [/mavros/param/pull] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,623: +SERVICE [/mavros/param/push] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,623: +SERVICE [/mavros/param/set] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,624: +SERVICE [/mavros/param/get] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,624: +PUB [/mavros/param/param_value] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,626: +SUB [/mavros/play_tune] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,628: +PUB [/mavros/rallypoint/waypoints] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,628: +SERVICE [/mavros/rallypoint/pull] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,628: +SERVICE [/mavros/rallypoint/push] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,629: +SERVICE [/mavros/rallypoint/clear] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,629: +PUB [/mavros/rangefinder/rangefinder] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,630: +PUB [/mavros/rc/in] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,631: +PUB [/mavros/rc/out] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,633: +SUB [/mavros/rc/override] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,636: +SUB [/mavros/setpoint_accel/accel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,642: +SUB [/mavros/setpoint_attitude/thrust] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,644: +SUB [/mavros/setpoint_attitude/cmd_vel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,652: +SUB [/mavros/setpoint_position/local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,654: +SUB [/mavros/setpoint_position/global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,656: +SUB [/mavros/setpoint_position/global_to_local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,658: +SUB [/mavros/global_position/global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,660: +SUB [/mavros/local_position/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,661: +SERVICE [/mavros/setpoint_position/mav_frame] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,663: +SUB [/mavros/setpoint_raw/local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,665: +SUB [/mavros/setpoint_raw/global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,667: +SUB [/mavros/setpoint_raw/attitude] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,667: +PUB [/mavros/setpoint_raw/target_local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,668: +PUB [/mavros/setpoint_raw/target_global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,668: +PUB [/mavros/setpoint_raw/target_attitude] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,671: +SUB [/mavros/setpoint_trajectory/local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,672: +PUB [/mavros/setpoint_trajectory/desired] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,672: +SERVICE [/mavros/setpoint_trajectory/reset] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,672: +SERVICE [/mavros/setpoint_trajectory/mav_frame] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,675: +SUB [/mavros/setpoint_velocity/cmd_vel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,677: +SUB [/mavros/setpoint_velocity/cmd_vel_unstamped] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,677: +SERVICE [/mavros/setpoint_velocity/mav_frame] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,682: +PUB [/mavros/state] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,683: +PUB [/mavros/extended_state] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,683: +PUB [/mavros/battery] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,684: +PUB [/mavros/estimator_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,684: +PUB [/mavros/statustext/recv] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,684: +PUB [/mavros/sys_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,686: +SUB [/mavros/statustext/send] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,687: +SERVICE [/mavros/set_stream_rate] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,687: +SERVICE [/mavros/set_mode] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,688: +SERVICE [/mavros/vehicle_info_get] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,688: +SERVICE [/mavros/set_message_interval] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,694: +PUB [/mavros/time_reference] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,694: +PUB [/mavros/timesync_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,695: +PUB [/mavros/terrain/report] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,697: +SUB [/mavros/trajectory/generated] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,699: +SUB [/mavros/trajectory/path] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,700: +PUB [/mavros/trajectory/desired] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,702: +SUB [/mavros/tunnel/in] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,702: +PUB [/mavros/tunnel/out] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,703: +PUB [/mavros/vfr_hud] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,707: +SUB [/mavros/vision_pose/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,709: +SUB [/mavros/vision_pose/pose_cov] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,711: +PUB [/mavros/mission/waypoints] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,711: +SERVICE [/mavros/mission/pull] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,712: +SERVICE [/mavros/mission/push] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,712: +SERVICE [/mavros/mission/clear] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,712: +PUB [/mavros/mission/reached] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,713: +SERVICE [/mavros/mission/set_current] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:58,713: +PUB [/mavros/wind_estimation] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:58:59,715: +PUB [/mavlink/gcs_ip] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-20 23:59:08,363: +PUB [/rosout] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-20 23:59:08,365: +SERVICE [/vertical_ascent_logger1/get_loggers] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-20 23:59:08,366: +SERVICE [/vertical_ascent_logger1/set_logger_level] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-20 23:59:08,367: +PUB [/mavros/setpoint_raw/local] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-20 23:59:08,368: +SUB [/mavros/local_position/velocity_body] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-20 23:59:08,369: +SUB [/mavros/battery] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-20 23:59:08,370: +SUB [/mavros/local_position/pose] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-20 23:59:08,442: publisherUpdate[/rosout] -> http://localhost:33343/ ['http://localhost:40543/', 'http://localhost:44843/']
+[rosmaster.master][INFO] 2026-06-20 23:59:08,444: publisherUpdate[/rosout] -> http://localhost:33343/ ['http://localhost:40543/', 'http://localhost:44843/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-06-20 23:59:08,444: publisherUpdate[/mavros/setpoint_raw/local] -> http://localhost:40543/ ['http://localhost:44843/']
+[rosmaster.master][INFO] 2026-06-20 23:59:08,445: publisherUpdate[/mavros/setpoint_raw/local] -> http://localhost:40543/ ['http://localhost:44843/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-06-21 00:01:47,456: -SUB [/mavros/local_position/velocity_body] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-21 00:01:47,456: -SUB [/mavros/battery] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-21 00:01:47,456: -SUB [/mavros/local_position/pose] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-21 00:01:47,456: -PUB [/rosout] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-21 00:01:47,456: -PUB [/mavros/setpoint_raw/local] /vertical_ascent_logger1 http://localhost:44843/
+[rosmaster.master][INFO] 2026-06-21 00:01:47,457: -SERVICE [/vertical_ascent_logger1/get_loggers] /vertical_ascent_logger1 rosrpc://localhost:32881
+[rosmaster.master][INFO] 2026-06-21 00:01:47,457: -SERVICE [/vertical_ascent_logger1/set_logger_level] /vertical_ascent_logger1 rosrpc://localhost:32881
+[rosmaster.master][INFO] 2026-06-21 00:01:47,458: publisherUpdate[/rosout] -> http://localhost:33343/ ['http://localhost:40543/']
+[rosmaster.master][INFO] 2026-06-21 00:01:47,458: publisherUpdate[/mavros/setpoint_raw/local] -> http://localhost:40543/ []
+[rosmaster.master][INFO] 2026-06-21 00:01:47,460: publisherUpdate[/rosout] -> http://localhost:33343/ ['http://localhost:40543/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-06-21 00:01:47,461: publisherUpdate[/mavros/setpoint_raw/local] -> http://localhost:40543/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-06-21 00:01:54,113: -PUB [/rosout] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,114: -PUB [/diagnostics] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,114: publisherUpdate[/rosout] -> http://localhost:33343/ []
+[rosmaster.master][INFO] 2026-06-21 00:01:54,115: -PUB [/tf] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,115: publisherUpdate[/rosout] -> http://localhost:33343/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2026-06-21 00:01:54,115: -PUB [/tf_static] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,115: publisherUpdate[/tf] -> http://localhost:40543/ []
+[rosmaster.master][INFO] 2026-06-21 00:01:54,116: -PUB [/mavlink/from] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,116: -PUB [/mavros/radio_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,117: -PUB [/mavros/adsb/vehicle] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,117: -PUB [/mavros/cam_imu_sync/cam_imu_stamp] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,117: -PUB [/mavros/camera/image_captured] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,117: -PUB [/mavros/distance_sensor/rangefinder_pub] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,118: -PUB [/mavros/esc_info] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,118: -PUB [/mavros/esc_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,118: -PUB [/mavros/esc_telemetry] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,118: -PUB [/mavros/geofence/waypoints] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,119: -PUB [/mavros/global_position/raw/fix] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,119: -PUB [/mavros/global_position/raw/gps_vel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,119: -PUB [/mavros/global_position/raw/satellites] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,120: -PUB [/mavros/global_position/global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,120: -PUB [/mavros/global_position/local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,121: -PUB [/mavros/global_position/rel_alt] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,121: -PUB [/mavros/global_position/compass_hdg] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,121: -PUB [/mavros/global_position/gp_origin] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,121: -PUB [/mavros/global_position/gp_lp_offset] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,122: -PUB [/mavros/gps_rtk/rtk_baseline] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,122: -PUB [/mavros/gpsstatus/gps1/raw] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,122: -PUB [/mavros/gpsstatus/gps2/raw] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,122: -PUB [/mavros/gpsstatus/gps1/rtk] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,123: -PUB [/mavros/gpsstatus/gps2/rtk] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,123: -PUB [/move_base_simple/goal] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,123: -PUB [/mavros/home_position/home] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,123: publisherUpdate[/tf] -> http://localhost:40543/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2026-06-21 00:01:54,124: -PUB [/mavros/imu/data] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,124: -PUB [/mavros/imu/mag] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,125: -PUB [/mavros/imu/temperature_imu] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,125: -PUB [/mavros/imu/temperature_baro] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,126: -PUB [/mavros/imu/static_pressure] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,126: -PUB [/mavros/imu/diff_pressure] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,127: -PUB [/mavros/imu/data_raw] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,127: -PUB [/mavros/landing_target/pose_in] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,127: -PUB [/mavros/landing_target/lt_marker] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,128: -PUB [/mavros/local_position/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,129: -PUB [/mavros/local_position/pose_cov] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,129: -PUB [/mavros/local_position/velocity_local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,130: -PUB [/mavros/local_position/velocity_body] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,130: -PUB [/mavros/local_position/velocity_body_cov] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,130: -PUB [/mavros/local_position/accel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,131: -PUB [/mavros/local_position/odom] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,132: -PUB [/mavros/log_transfer/raw/log_entry] /mavros http://localhost:40543/
+[rosmaster.threadpool][ERROR] 2026-06-21 00:01:54,132: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2026-06-21 00:01:54,132: publisherUpdate[/tf_static] -> http://localhost:40543/ []
+[rosmaster.master][INFO] 2026-06-21 00:01:54,133: -PUB [/mavros/log_transfer/raw/log_data] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,133: publisherUpdate[/tf_static] -> http://localhost:40543/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2026-06-21 00:01:54,133: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2026-06-21 00:01:54,133: publisherUpdate[/mavros/global_position/global] -> http://localhost:40543/ []
+[rosmaster.master][INFO] 2026-06-21 00:01:54,134: publisherUpdate[/mavros/global_position/global] -> http://localhost:40543/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2026-06-21 00:01:54,134: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2026-06-21 00:01:54,134: publisherUpdate[/mavros/global_position/gp_origin] -> http://localhost:40543/ []
+[rosmaster.master][INFO] 2026-06-21 00:01:54,135: -PUB [/mavros/mag_calibration/status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,135: -PUB [/mavros/mag_calibration/report] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,135: publisherUpdate[/mavros/global_position/gp_origin] -> http://localhost:40543/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2026-06-21 00:01:54,136: -PUB [/mavros/manual_control/control] /mavros http://localhost:40543/
+[rosmaster.threadpool][ERROR] 2026-06-21 00:01:54,136: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2026-06-21 00:01:54,136: publisherUpdate[/mavros/home_position/home] -> http://localhost:40543/ []
+[rosmaster.master][INFO] 2026-06-21 00:01:54,137: -PUB [/mavros/mount_control/orientation] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,137: publisherUpdate[/mavros/home_position/home] -> http://localhost:40543/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2026-06-21 00:01:54,137: -PUB [/mavros/mount_control/status] /mavros http://localhost:40543/
+[rosmaster.threadpool][ERROR] 2026-06-21 00:01:54,138: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2026-06-21 00:01:54,138: publisherUpdate[/mavros/local_position/pose] -> http://localhost:40543/ []
+[rosmaster.master][INFO] 2026-06-21 00:01:54,139: -PUB [/mavros/nav_controller_output] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,139: publisherUpdate[/mavros/local_position/pose] -> http://localhost:40543/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2026-06-21 00:01:54,140: -PUB [/mavros/odometry/in] /mavros http://localhost:40543/
+[rosmaster.threadpool][ERROR] 2026-06-21 00:01:54,140: Traceback (most recent call last):
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1109, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1450, in __request
+    response = self.__transport.request(
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1153, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1169, in single_request
+    return self.parse_response(resp)
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 1341, in parse_response
+    return u.close()
+  File "/usr/lib/python3.8/xmlrpc/client.py", line 655, in close
+    raise Fault(**self._stack[0])
+xmlrpc.client.Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2026-06-21 00:01:54,140: -PUB [/mavros/param/param_value] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,141: -PUB [/mavros/rallypoint/waypoints] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,141: -PUB [/mavros/rangefinder/rangefinder] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,141: -PUB [/mavros/rc/in] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,142: -PUB [/mavros/rc/out] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,142: -PUB [/mavros/setpoint_raw/target_local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,142: -PUB [/mavros/setpoint_raw/target_global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,143: -PUB [/mavros/setpoint_raw/target_attitude] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,143: -PUB [/mavros/setpoint_trajectory/desired] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,143: -PUB [/mavros/state] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,143: -PUB [/mavros/extended_state] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,144: -PUB [/mavros/battery] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,144: -PUB [/mavros/estimator_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,144: -PUB [/mavros/statustext/recv] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,145: -PUB [/mavros/sys_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,145: -PUB [/mavros/time_reference] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,145: -PUB [/mavros/timesync_status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,146: -PUB [/mavros/terrain/report] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,146: -PUB [/mavros/trajectory/desired] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,146: -PUB [/mavros/tunnel/out] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,147: -PUB [/mavros/vfr_hud] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,147: -PUB [/mavros/mission/waypoints] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,147: -PUB [/mavros/mission/reached] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,147: -PUB [/mavros/wind_estimation] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,148: -PUB [/mavlink/gcs_ip] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,148: -SUB [/tf] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,149: -SUB [/tf_static] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,149: -SUB [/mavlink/to] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,149: -SUB [/mavros/adsb/send] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,150: -SUB [/mavros/cellular_status/status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,150: -SUB [/mavros/companion_process/status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,151: -SUB [/mavros/distance_sensor/rangefinder_sub] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,151: -SUB [/mavros/fake_gps/mocap/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,151: -SUB [/mavros/global_position/set_gp_origin] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,152: -SUB [/mavros/home_position/home] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,152: -SUB [/mavros/gps_input/gps_input] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,153: -SUB [/mavros/gps_rtk/send_rtcm] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,153: -SUB [/mavros/global_position/gp_origin] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,153: -SUB [/mavros/home_position/set] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,154: -SUB [/mavros/landing_target/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,154: -SUB [/mavros/manual_control/send] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,155: -SUB [/mavros/mocap/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,155: -SUB [/mavros/mount_control/command] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,155: -SUB [/mavros/obstacle/send] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,156: -SUB [/mavros/odometry/out] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,156: -SUB [/mavros/onboard_computer/status] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,157: -SUB [/mavros/play_tune] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,157: -SUB [/mavros/rc/override] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,158: -SUB [/mavros/setpoint_accel/accel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,158: -SUB [/mavros/setpoint_attitude/thrust] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,159: -SUB [/mavros/setpoint_attitude/cmd_vel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,159: -SUB [/mavros/setpoint_position/local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,160: -SUB [/mavros/setpoint_position/global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,160: -SUB [/mavros/setpoint_position/global_to_local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,160: -SUB [/mavros/global_position/global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,161: -SUB [/mavros/local_position/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,161: -SUB [/mavros/setpoint_raw/local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,161: -SUB [/mavros/setpoint_raw/global] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,161: -SUB [/mavros/setpoint_raw/attitude] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,162: -SUB [/mavros/setpoint_trajectory/local] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,162: -SUB [/mavros/setpoint_velocity/cmd_vel] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,162: -SUB [/mavros/setpoint_velocity/cmd_vel_unstamped] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,163: -SUB [/mavros/statustext/send] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,163: -SUB [/mavros/trajectory/generated] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,163: -SUB [/mavros/trajectory/path] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,164: -SUB [/mavros/tunnel/in] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,164: -SUB [/mavros/vision_pose/pose] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,165: -SUB [/mavros/vision_pose/pose_cov] /mavros http://localhost:40543/
+[rosmaster.master][INFO] 2026-06-21 00:01:54,166: -SERVICE [/mavros/get_loggers] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,166: -SERVICE [/mavros/set_logger_level] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,166: -SERVICE [/mavros/cmd/command] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,167: -SERVICE [/mavros/cmd/command_ack] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,167: -SERVICE [/mavros/cmd/command_int] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,168: -SERVICE [/mavros/cmd/arming] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,168: -SERVICE [/mavros/cmd/set_home] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,168: -SERVICE [/mavros/cmd/takeoff] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,169: -SERVICE [/mavros/cmd/land] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,169: -SERVICE [/mavros/cmd/trigger_control] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,170: -SERVICE [/mavros/cmd/trigger_interval] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,170: -SERVICE [/mavros/cmd/vtol_transition] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,171: -SERVICE [/mavros/geofence/pull] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,171: -SERVICE [/mavros/geofence/push] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,171: -SERVICE [/mavros/geofence/clear] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,172: -SERVICE [/mavros/home_position/req_update] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,172: -SERVICE [/mavros/log_transfer/raw/log_request_list] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,172: -SERVICE [/mavros/log_transfer/raw/log_request_data] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,173: -SERVICE [/mavros/log_transfer/raw/log_request_end] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,173: -SERVICE [/mavros/log_transfer/raw/log_request_erase] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,174: -SERVICE [/mavros/mount_control/configure] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,174: -SERVICE [/mavros/param/pull] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,175: -SERVICE [/mavros/param/push] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,175: -SERVICE [/mavros/param/set] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,175: -SERVICE [/mavros/param/get] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,176: -SERVICE [/mavros/rallypoint/pull] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,176: -SERVICE [/mavros/rallypoint/push] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,177: -SERVICE [/mavros/rallypoint/clear] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,177: -SERVICE [/mavros/setpoint_position/mav_frame] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,178: -SERVICE [/mavros/setpoint_trajectory/reset] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,178: -SERVICE [/mavros/setpoint_trajectory/mav_frame] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,179: -SERVICE [/mavros/setpoint_velocity/mav_frame] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,179: -SERVICE [/mavros/set_stream_rate] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,180: -SERVICE [/mavros/set_mode] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,180: -SERVICE [/mavros/vehicle_info_get] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,181: -SERVICE [/mavros/set_message_interval] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,182: -SERVICE [/mavros/mission/pull] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,182: -SERVICE [/mavros/mission/push] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,182: -SERVICE [/mavros/mission/clear] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,183: -SERVICE [/mavros/mission/set_current] /mavros rosrpc://localhost:57347
+[rosmaster.master][INFO] 2026-06-21 00:01:54,186: -CACHEDPARAM [/mavros/diagnostic_period] by /mavros
+[rosmaster.master][INFO] 2026-06-21 00:01:54,186: -CACHEDPARAM [/rosout_disable_topics_generation] by /mavros
+[rosmaster.master][INFO] 2026-06-21 00:01:57,682: -PUB [/rosout_agg] /rosout http://localhost:33343/
+[rosmaster.master][INFO] 2026-06-21 00:01:57,683: -SUB [/rosout] /rosout http://localhost:33343/
+[rosmaster.master][INFO] 2026-06-21 00:01:57,683: -SERVICE [/rosout/get_loggers] /rosout rosrpc://localhost:46609
+[rosmaster.master][INFO] 2026-06-21 00:01:57,683: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://localhost:46609
+[rosmaster.master][INFO] 2026-06-21 00:01:57,684: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2026-06-21 00:01:57,727: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2026-06-21 00:01:57,727: stopping master...
+[rospy.core][INFO] 2026-06-21 00:01:57,728: signal_shutdown [atexit]
