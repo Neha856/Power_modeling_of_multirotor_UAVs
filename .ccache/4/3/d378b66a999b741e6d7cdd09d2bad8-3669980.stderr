@@ -1,4 +1,0 @@
-../../libraries/AP_Param/AP_Param.cpp: In static member function ‘static bool AP_Param::add_param(uint8_t, uint8_t, const char*, float)’:
-../../libraries/AP_Param/AP_Param.cpp:3016:26: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
- 3016 |     const int32_t crc = *(const int32_t *)(&hinfo.def_value);
-      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
